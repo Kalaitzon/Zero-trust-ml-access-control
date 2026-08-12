@@ -1,0 +1,4 @@
+scenario,precision,recall,f1,fp,fpr,roc,challenge_block
+before,0.58,0.968,0.725,174,0.041,0.989,414
+after_drift,0.152,0.976,0.263,1347,0.317,0.93,1589
+after_mitigation,0.18,0.976,0.303,1105,0.26,0.932,1347

@@ -1,0 +1,5 @@
+sensitivity,n,anomalies,precision,recall,F1,FPR,FNR
+Confidential,429,64,0.842,1.0,0.914,0.033,0.0
+Internal,3196,54,0.277,0.907,0.424,0.041,0.093
+Privileged,264,99,0.917,1.0,0.957,0.055,0.0
+Public,611,31,0.528,0.903,0.667,0.043,0.097
