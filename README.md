@@ -1,6 +1,4 @@
-==========================================
  Zero-Trust Adaptive Access-Control Engine
-==========================================
 
 WHAT THIS PROJECT IS
 --------------------
