@@ -1,4 +1,3 @@
-# Ioannis Kalaitzidis, MTE25012
 # Python 3.10+
 
 pandas>=1.5
