@@ -32,7 +32,6 @@ Output: data/evaluated_risk_logs.csv, data/dynamic_access_decisions.csv,
 =============================================================================
 """
 
-import os
 import numpy as np
 import pandas as pd
 from sklearn.ensemble import IsolationForest, HistGradientBoostingClassifier
