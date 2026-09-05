@@ -1,0 +1,105 @@
+ZERO-TRUST ADAPTIVE ACCESS-CONTROL ENGINE — PROPRIETARY LICENCE
+
+Copyright (c) 2026 Ioannis Kalaitzidis. All rights reserved.
+
+This repository contains the complete source code of an academic project (an
+MSc assignment for the University of Piraeus): a Zero-Trust adaptive
+access-control engine that combines a static rule-based policy baseline with a
+hybrid machine-learning risk scorer (Isolation Forest and Gradient Boosting) and
+deterministic Zero-Trust overrides, together with the synthetic data generator,
+the evaluation, fairness and drift-analysis code, the generated datasets and
+figures, and the accompanying documentation.
+
+Publishing this repository does not place any of it in the public domain and
+does not grant any licence beyond what is stated below.
+
+
+────────────────────────────────────────────────────────────────────────────
+SOURCE CODE
+────────────────────────────────────────────────────────────────────────────
+
+PERMITTED
+
+  1. Reading and studying the source code.
+  2. Quoting short excerpts for commentary, review, teaching or technical
+     discussion, with attribution to the author and a link to this repository.
+  3. Running the project locally for the sole purpose of evaluating it,
+     provided it is not deployed, published or made available to any third
+     party.
+
+NOT PERMITTED without prior written permission
+
+  1. Redistributing the code, in whole or substantial part, as a template,
+     boilerplate or starter project.
+  2. Submitting this work, in whole or in part, as one's own academic
+     assignment or coursework.
+  3. Sublicensing, selling, renting or otherwise transferring rights in it.
+  4. Incorporating the code, or content derived from it, into any commercial
+     product, service, training dataset or publication.
+  5. Removing or altering this notice or any copyright or attribution notice
+     contained in the source files.
+
+
+────────────────────────────────────────────────────────────────────────────
+ACADEMIC INTEGRITY AND RESPONSIBLE USE
+────────────────────────────────────────────────────────────────────────────
+
+This project was produced as an educational exercise. It is shared for study,
+review and demonstration purposes only.
+
+It must not be submitted, in whole or in part, as anyone else's academic work.
+Whoever uses this repository is solely responsible for complying with the
+academic-integrity rules of their own institution. The author accepts no
+responsibility for any consequences of plagiarism or misuse.
+
+The access-control logic here is a laboratory prototype trained on synthetic
+data. It is not hardened, audited or intended for production use, and must not
+be relied upon to protect any real system or real data without independent
+review.
+
+
+────────────────────────────────────────────────────────────────────────────
+CONFIGURATION, CREDENTIALS AND DATA
+────────────────────────────────────────────────────────────────────────────
+
+No real API keys, database credentials or other secrets are contained in this
+repository. Every user identifier, device identifier, resource name and value
+that appears in the dataset is fictional and was produced synthetically by the
+project's own generator (01_generate_dataset.py) from a fixed random seed.
+
+The datasets included in this repository contain no personal data and no
+information about any real person, employee or system. Any resemblance to real
+identifiers is coincidental.
+
+
+────────────────────────────────────────────────────────────────────────────
+THIRD-PARTY DEPENDENCIES
+────────────────────────────────────────────────────────────────────────────
+
+The project depends on open-source packages distributed under their own
+licences — including scikit-learn, numpy, pandas, matplotlib and joblib.
+
+Nothing in this licence grants any right in those packages. Their respective
+terms apply to them independently, and this licence covers only the original
+work of the author.
+
+
+────────────────────────────────────────────────────────────────────────────
+NO WARRANTY
+────────────────────────────────────────────────────────────────────────────
+
+This software is provided "as is", without warranty of any kind, express or
+implied, including but not limited to the warranties of merchantability,
+fitness for a particular purpose and non-infringement.
+
+In no event shall the author be liable for any claim, damages or other
+liability arising from, out of or in connection with this software or its use,
+including any consequences of relying on it to protect a real system.
+
+
+────────────────────────────────────────────────────────────────────────────
+CONTACT
+────────────────────────────────────────────────────────────────────────────
+
+For permission requests, please contact the copyright holder through the GitHub
+profile associated with this repository.
